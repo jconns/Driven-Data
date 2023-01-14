@@ -1,18 +1,5 @@
-library(usethis)
-use_git()
 
 
-
-
-### data sets
-air_reserve <- read.csv("/Users/jackconnors/Downloads/air_reserve.csv")
-air_store <- read.csv("/Users/jackconnors/Downloads/air_store_info.csv")
-air_visits <- read.csv("/Users/jackconnors/Downloads/air_visit_data.csv")
-hpg_reserve <- read.csv("/Users/jackconnors/Downloads/hpg_reserve.csv")
-hpg_store <- read.csv("/Users/jackconnors/Downloads/hpg_store_info.csv")
-holidays <- read.csv("/Users/jackconnors/Downloads/date_info.csv")
-test <- read.csv("/Users/jackconnors/Downloads/sample_submission.csv")
-store_ids <- read.csv("/Users/jackconnors/Downloads/store_id_relation.csv")
 
 ### libraries
 library(dplyr)
